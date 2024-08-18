@@ -1,0 +1,9 @@
+[package]
+name = "memprint"
+version = "0.1.0"
+edition = "2021"
+license = "0BSD"
+
+[dependencies]
+colored = "2.1"
+memprint_derive = { path = "memprint_derive" }
