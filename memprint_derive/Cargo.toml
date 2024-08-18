@@ -1,5 +1,6 @@
 [package]
 name = "memprint_derive"
+description = "Derive macro for memprint"
 version = "0.1.0"
 edition = "2021"
 license = "0BSD"

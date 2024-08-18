@@ -1,5 +1,5 @@
 # memprint()
-**memprint** provides a single `MemPrint` trait (*including a derive macro for it!*),
+**memprint** provides a single `MemPrint` trait (*including a derive macro for it!*),  
 which allows you to print the underlying memory layout of a type.
 
 ## Example
