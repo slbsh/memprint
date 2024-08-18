@@ -2,7 +2,7 @@
 name = "memprint"
 description = "A way to print memory layout of a struct"
 repository = "https://github.com/slbsh/memprint"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "0BSD"
 
