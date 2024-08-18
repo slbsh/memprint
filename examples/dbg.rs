@@ -1,12 +1,3 @@
-# memprint()
-**memprint** provides a single `MemPrint` trait (*including a derive macro for it!*),  
-which allows you to print the underlying memory layout of a type.
-
-## Example
-![example output](demo_print.png)
-
-here are the two ways ye can use your newfound powers:
-```rust
 use memprint::MemPrint;
 
 #[derive(MemPrint)]
@@ -35,13 +26,11 @@ fn main() {
     vec.push(MyStruct::new(1337,  1.41, b'C'));
     vec.push(MyStruct::new(9001,  0.0,  b'D'));
     vec.push(MyStruct::new(80085, -1.0, b'E'));
-    println!("\n\n");
+
+    println!();
 
     // prints a colour coded block of memory, representing the elements of the slice
     MyStruct::memprint_block(&vec);
-}
-```
 
-## todos
-- [ ] add support for enums and unions
-- [ ] use the colour coded printout if any fields on a struct are also structs with the MemPrint trait
+    println!();
+}
