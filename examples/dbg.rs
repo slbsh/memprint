@@ -33,4 +33,6 @@ fn main() {
 	MyStruct::memprint_block(&vec);
 
 	println!();
+
+	f32::memprint_block(&vec![0.1, 0.2, 0.3, 0.4, 0.5]);
 }
